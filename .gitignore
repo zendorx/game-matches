@@ -1,0 +1,15 @@
+syntax: glob
+.DS_Store
+*.sln
+*.userprefs
+*.csproj
+*.csprog
+*.pidb
+*.unitypackage
+*.orig
+
+syntax: regexp
+^Build/.*
+^Library/.*
+^Temp/.*
+^.vs/.*
